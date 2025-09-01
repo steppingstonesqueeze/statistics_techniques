@@ -55,3 +55,6 @@ it_weighted_sampling <- function(...) {
 }
 
 my_output <- it_weighted_sampling(data = c(1,2,3,4), weights = c(0.7, 0.2, 0.08, 0.02), N = 1000)
+
+table(my_output)
+
